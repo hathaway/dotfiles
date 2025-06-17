@@ -1,0 +1,13 @@
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[user]
+	name = Ben Hathaway
+	email = b@hath.me
+	signingkey = EF62E493CAA9C00B
+[pull]
+	rebase = true
+[commit]
+	#gpgsign = true
