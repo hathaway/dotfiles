@@ -10,8 +10,8 @@
   "agent": {
     "model_parameters": [],
     "default_model": {
-      "provider": "openai",
-      "model": "gpt-4o"
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-latest"
     },
     "version": "2"
   },
