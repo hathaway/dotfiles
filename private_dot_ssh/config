@@ -1,0 +1,7 @@
+PubkeyAcceptedKeyTypes +ssh-rsa
+
+Host *
+  StrictHostKeyChecking no
+  ServerAliveInterval 50
+  AddKeysToAgent yes
+  UseKeychain yes

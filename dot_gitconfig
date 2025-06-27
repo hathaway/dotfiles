@@ -6,8 +6,14 @@
 [user]
 	name = Ben Hathaway
 	email = b@hath.me
-	signingkey = EF62E493CAA9C00B
-[pull]
-	rebase = true
+	signingkey = 69493A7A14CA9F55
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
 [commit]
-	#gpgsign = true
+	gpgsign = true
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[pull]
+	rebase = false
